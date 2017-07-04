@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <idFactura>2</idFactura>
+    <Responsable>Administrador</Responsable>
+    <Nombre>Playeras</Nombre>
+    <Talla>Extra Chico</Talla>
+    <Precio>340</Precio>
+    <Comprador>Mario</Comprador>
+    <Importe>10200</Importe>
+  </Table1>
+  <Table1>
+    <idFactura>2</idFactura>
+    <Responsable>Administrador</Responsable>
+    <Nombre>Pantalones</Nombre>
+    <Talla>Mediano</Talla>
+    <Precio>400</Precio>
+    <Comprador>Mario</Comprador>
+    <Importe>13600</Importe>
+  </Table1>
+  <Table1>
+    <idFactura>2</idFactura>
+    <Responsable>Administrador</Responsable>
+    <Nombre>Shorts</Nombre>
+    <Talla>Grande</Talla>
+    <Precio>450</Precio>
+    <Comprador>Mario</Comprador>
+    <Importe>900</Importe>
+  </Table1>
+</NewDataSet>

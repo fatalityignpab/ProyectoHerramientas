@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Proyecto_BD_HA_V2.Responsable">
+    <Position X="0.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQACAAIAAAAAQEAAgAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Responsable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_BD_HA_V2.Cliente">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAEACAAgAAAAAAAAAAEAAAAAgAAAAA=</HashCode>
+      <FileName>Cliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_BD_HA_V2.Productos">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIBAAACCAAAAAAAAAEAAhAAQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Productos.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Responsable" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Proyecto_BD_HA_V2.AbstractaRegistro">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAACACAIAAAAAQAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>AbstractaRegistro.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Proyecto_BD_HA_V2.Factura">
+    <Position X="3.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAACBAAAAAAEAAACAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Factura.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Responsable" />
+      <Property Name="Cliente" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Proyecto_BD_HA_V2.Detalle">
+    <Position X="7" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEQAAAEAAAAQAAAAAAUAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Detalle.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Factura" />
+      <Property Name="Productos" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Proyecto_BD_HA_V2.VistaVenta">
+    <Position X="1" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAACAAAAEAAAAAAEAgAAQAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>VistaVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Proyecto_BD_HA_V2.InterfaceRegistro">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InterfaceRegistro.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
